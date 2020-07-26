@@ -44,33 +44,36 @@ table {
 }
 
     /*MAIN PART*/
+
     body
-    {color: aqua;
-    font-size:15px;
-    text-align: justify;
-    line-height: 40px;
-    font-weight: normal;
-    background: gray;
-    margin: 30px 30px;}
+    {line-height: 1}
     .topword
     {color: black;
     font-size: 50px;
     font-weight: bolder;}
     div
-    {font-size: 18px
-    text-align:left;
-    margin:30px 50px 30px 50px;
-    padding: 10px auto}
-    img
-    {margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: center;
-    }
+    {
+    color: aqua;
+    font-size:18px;
+    text-align: justify;
+    line-height: 40px;
+    font-weight: normal;
+    background: gray;
+    margin: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;}
+
     p
     {text-indent: 20px;   
     text-align: justify;
     line-height: 20px; }
+    img{
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    border: 0;
+    height: 400px;
+    width: 400px;
+    
+    
     }
     
     
