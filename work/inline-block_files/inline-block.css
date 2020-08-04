@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    ;
+
+}
+
+    /*MAIN PART*/
+    .bigdiv
+    {width: 1200px;
+    margin: 0 auto;
+    font-size: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    background: yellow;}
+
+    .inpart1
+    {width: 397px;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+    border:solid thin;}
+
+    .part2
+    {font-size: 0;}
+    .inpart2
+    {display: inline-block;
+    width: 800px;
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .inpart22
+    {display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    width: 396px;
+    height: 51px;
+    border:solid thin;}
+
+    .part3
+    {font-size: 0;}
+    .inpart3
+    {display: inline-block;
+    width: 400px;   
+    font-size: 16px;
+    vertical-align: top;
+    height: 50px;
+    border:solid thin;}
+    .biginpart3
+    {display: inline-block;
+     width: 793px;   
+    font-size: 0px;
+    vertical-align: top;
+    height: 50px;
+    border:solid thin;}
+    .inpart33
+    {width:793px; 
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .inbig
+    {display: inline-block;
+    width:400px; 
+    height: 32px;
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .ininin
+    {display: inline-block;
+    width:388px; 
+    font-size: 15px;
+    vertical-align: top;
+    }
+    .in3{border:solid thin;}
+    .in4{border:solid thin;}
+
+    .part4
+    {font-size: 0;
+        display: inline-block;
+    }
+    .inpart4
+    {display: inline-block;
+     width: 800px;   
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .inpart24
+    {border: solid thin;}
+    .inpart44
+    {display: inline-block;
+     width: 400px;   
+    font-size: 0px;
+    vertical-align: top;
+    border:solid thin;}
+    .inpart444
+    {display: inline-block;
+     width: 198px;   
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .inpart55
+    {width: 400px;   
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+    .partpart2
+     {display: inline-block;
+    font-size: 0px;
+    vertical-align: top;}
+    .ininpart4
+    {display: inline-block;
+    width: 392px;   
+    font-size: 16px;
+    height: 38px;
+    vertical-align: top;}
+    .part45
+     {display: inline-block;
+    width: 396px; 
+    height: 55px; 
+    font-size: 16px;
+    vertical-align: top;
+    border:solid thin;}
+
+
+
+    
+
+        
+     
+
+
+    
+
+    
+
+    
+
+   
+    
+
+
+

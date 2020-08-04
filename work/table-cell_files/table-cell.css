@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+    /*MAIN PART*/
+    body
+    {background: gray;
+        text-align: center;}
+    .wrapper
+    {width: 1200px;
+    margin: 0 auto;
+    background: white;}
+    .oneone
+    {background: #87ceeb;
+    width: 400px; 
+    display: table-cell;
+    border:solid;
+    text-align: justify;}
+    .wrappertwo
+    {width: 1200px;
+    margin: 0 auto;
+    background: white;}
+    .twotwo
+   {background: #d8bfd8;
+    width: 600px; 
+    display: table-cell;
+    border:solid;}
+    .Природаtwo
+    {border: solid;}
+    .Природаtwotwo
+    {border: solid;}
+    .twotwotwo
+   {background: #008080;
+    width: 600px; 
+    display: table-cell;
+    border:solid;
+    text-align: center;}
+    .wrapperthree
+   {width: 1200px;
+    margin: 0 auto;
+    background: silver;}
+    .three
+    {background: #f0e68c;
+    width: 400px; 
+    display: table-cell;
+    border:solid;}
+   .threethree
+   {background: #ffdab9;
+    width: 800px; 
+    display: table-cell;
+    border:solid;
+    vertical-align: center;}
+    .threethreethree
+    {border: solid;
+    text-align: center;}
+    .threethreethreee
+    {background:#ffa07a; 
+    width: 400px;
+    display: table-cell;
+    height: 80px;
+    border: solid;}
+    .underthree
+    {background: tan;
+    width: 400px; 
+    display: table-cell;
+    height: 100px;
+    border:solid;}
+    .four
+   {width: 1200px;
+    margin: 0 auto;
+    background: white;}
+    .fourfour
+    {background: #f5deb3;
+    display: table-cell;
+    border: solid;
+    width: 600px;}
+   .divv
+   {border: solid;
+    text-align: center;}
+    .underfour1
+     {background: #f5f5dc;
+    width: 600px; 
+    border:solid;
+    vertical-align: center;}
+    .twofour
+    {background: #00ff7f;
+    display: table-cell;
+    width: 300px;
+    border: solid;}
+    .in
+    {background: #66cdaa;
+    display: table-cell;
+    width: 150px;
+    border: solid;}
+
+    
+
+    
+
+    
+
+    
+
+   
+    
+
+
+
