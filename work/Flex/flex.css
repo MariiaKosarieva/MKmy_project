@@ -50,21 +50,19 @@ table {
 
 .body
 {display: block;
-margin-top: 10px;}
+margin: 0 auto;}
 
 .main
 {width: 1200px;
-margin: 0 auto;
-font-size: 0;
 background: #FFF8DC;}
 
 .fistdiv
 {display: flex;}
+
 .infistdiv
 {box-sizing: border-box;
-width: 400px;
+flex: 0 0 400px;
 background: #BC8F8F;
-font-size: 16px;
 border: solid 1px;}
 
 .second
@@ -72,34 +70,101 @@ border: solid 1px;}
 
 .undersecond
 {box-sizing: border-box;
-width: 800px;
-font-size: 16px;}
+flex: 0 0 800px;}
 
 .under
 {border: solid 1px;}
 
-.undsecond
-{width: 400px;
-font-size: 16px;}
-
 .underund
 {border: solid 1px;}
 
-.thirt
-{box-sizing: border-box;
-display: flex;}
+.third
+{display: flex;}
 
 .firstthird
 {box-sizing: border-box;
-width: 400px;
-font-size: 16px;
+flex: 0 0 500px;
 border: solid 1px;}
 
 .secondthird
-{width: 500px;
-box-sizing: border-box;
-font-size: 16px;
-vertical-align: top;}
+{box-sizing: border-box;
+flex: 0 0 700px;
+background: #BC8F8F;
+border: solid 1px;}
+
+.inpast
+{display: flex;}
+
+.ininpast
+{flex: 0 0 300px;}
+
+.insecondthird
+{border: solid 1px;}
+
+.ininpast
+{border: solid 1px;}
+
+.inin
+{flex: 0 0 397px;}
+
+.ininin
+{border: solid 1px;}
+
+.fourth
+{display: flex;}
+
+.infourth
+{flex: 0 0 800px;
+border: solid 1px;}
+
+.ininfourth
+{flex: 0 0 397px;
+border: solid 1px;}
+
+
+
+
+
+
+
+
+
+.alone
+{border: solid 1px;}
+
+.inf
+{display: flex;}
+
+.ininf
+{flex: 0 0 398px;
+border: solid 1px;}
+
+
+.inff
+{flex: 0 0 398px;}
+.ininff
+{display: flex;}
+.inff
+{flex: 0 0 198px;
+border: solid 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
