@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
    html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,7 +51,8 @@ table {
     {width: 1000px;   
     margin: 0px auto;
     padding: 0 0 60px;
-    text-align: justify;}
+    text-align: justify;
+    font-family: 'Playfair Display', serif;}
 
     .menu
     {background: #18b3a529;}
@@ -497,16 +498,71 @@ table {
     transform: translateX(19px) translateY(-550px);}
 
 
+    .animation
+    {display: block;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    overflow:hidden;
+    position: relative; }
 
+    .ship
+    {position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 445px;
+    height: 466px;
+    background: url("./galery/ship.png") no-repeat center;
+    animation-name: ship;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1; }
 
+    .moon
+    {position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1300px;
+    height: 1111px;
+    background: url("./galery/moon.png") no-repeat center;
+    animation-name: moon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+    transform: rotate(240deg); }
 
+    .lightning
+    {position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1000px;
+    height: 745px;
+    background: url("./galery/lightning.png") no-repeat center;
+    animation-name: lightning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;}
 
+    @keyframes lightning{
+        0%{top:0;
+            left:0;}
 
+    }
 
+    
 
+    @keyframes ship {
+  from {left:0px;}
+        
+  to {left:100%;}}
 
-
-
+    @keyframes moon{
+        0% {transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
 
 
 
